@@ -1,4 +1,9 @@
+<img src="https://github.com/narekye/JS_Projects/blob/master/js.png" align="right" width="150px" height="150px" /> 
+
+
 # JS projects via Visual Studio 2017 Release Candidate.
+
+
 There is included projects via JavaScript, HTML, CSS, jQuery, AJAX, ans so more will be soon... created with Visual Studio 2017 RC. 
 ### Some helpful information about JS.
 JavaScript, not to be confused with Java, was created in 10 days in May `1995` by Brendan Eich, then working at Netscape and now of Mozilla. JavaScript was not always known as JavaScript: the original name was Mocha, a name chosen by Marc Andreessen, founder of Netscape. In September of 1995 the name was changed to LiveScript, then in December of the same year, upon receiving a trademark license from Sun, the name JavaScript was adopted. This was somewhat of a marketing move at the time, with Java being very popular around then.
@@ -29,3 +34,5 @@ In July of 2008 the disparate parties on either side came together in Oslo. This
 
 
 All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript.
+___
+Kind regards / Narek Yegoryan
