@@ -4,16 +4,40 @@
 <head>
     <meta charset="utf-8" />
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<script src=" Slides.js"></script>
+	<script src="Animations.js"></script>
 	<script>
 			$(document).ready(function () {
 				$("p").click(function () {
 					$(this).hide();
 				});
+		});
+		$(document).ready(function () {
+			$("button").click(function () {
+				$(this).hide();
 			});
+		});
 	</script>
     <title></title>
+	<style>
+		#panel, #flip {
+			padding: 5px;
+			text-align: center;
+			background-color: #e5eecc;
+			border: solid 1px #c3c3c3;
+		}
+
+		#panel {
+			padding: 50px;
+			display: none;
+		}
+	</style>
 </head>
 <body>
 	<p>Click me to hide...</p>
+	<button>Click me</button>
+	<p id="flip">Click to slide the panel down or up</p>
+	<p id="panel">Panel !!!</p>
+	<div style="background:#98bf21;height:100px;width:100px;position:absolute;">Why so serious?</div>
 </body>
 </html>
