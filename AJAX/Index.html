@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<div id="demo">
+		<h1>Text</h1>
+		<button type="button" onclick='loadDoc()'>Change content</button>
+	</div>
+	<script>
+		function loadDoc() {
+			alert(this.responseText);
+			var xhttp = XMLHttpRequest();
+			xhttp.onreadystatechange = function () {
+				if (this.readystate == 4 && this.status == 200) {
+					document.getElementById("demo").innerHTML = this.responseText;
+				}
+			};
+			xhttp.open("GET", "Test.txt", true);
+			xhttp.send();
+		};
+	</script>
+
+</body>
+</html>
