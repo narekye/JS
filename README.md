@@ -1,7 +1,6 @@
 <img src="https://github.com/narekye/JS_Projects/blob/master/js.png" align="right" width="150px" height="150px" /> 
 
-
-# JS projects via Visual Studio 2017 Release Candidate.
+# JS projects via MS Visual Studio 2017 Release Candidate.
 
 
 There is included projects via JavaScript, HTML, CSS, jQuery, AJAX,Angular and so more will be soon... created with Visual Studio 2017 RC. 
@@ -34,5 +33,16 @@ In July of 2008 the disparate parties on either side came together in Oslo. This
 
 
 All of this then brings us to today, with JavaScript entering a completely new and exciting cycle of evolution, innovation and standardisation, with new developments such as the Nodejs platform, allowing us to use JavaScript on the server-side, and HTML5 APIs to control user media, open up web sockets for always-on communication, get data on geographical location and device features such as accelerometer, and more. It is an exciting time to learn JavaScript.
+___
+
+### Helpful information about Angular.js `open-source` framework.
+AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing `single-page` applications. The JavaScript components complement Apache Cordova, the framework used for developing cross-platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. In 2014, the original AngularJS team began working on Angular (Application Platform).
+
+The AngularJS framework works by first reading the HTML page, which has embedded into it additional custom tag attributes. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.
+
+According to JavaScript analytics service Libscore, AngularJS is used on the websites of Wolfram Alpha, NBC, Walgreens, Intel, Sprint, ABC News, and approximately 12,000 other sites out of 1 million tested in October 2016.[3] AngularJS is the 6th most starred project of all time on GitHub.[4]
+
+AngularJS is the frontend part of the MEAN stack, consisting of MongoDB database, Express.js web application server framework, Angular.js itself, and Node.js server runtime environment.
+
 ___
 Kind regards / Narek Yegoryan
