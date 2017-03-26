@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<div ng-app="myapp" ng-controller="myctrl">
+		<p>Message is:</p>
+		{{message}}
+	</div>
+	<script>
+		var app = angular.module('myapp', []);
+		app.controller('myctrl', function ($scope, $http) {
+			$http.get("text.txt").then(function (response) {
+				$scope.message = response.data;
+			});
+		});
+		console.log('completed.');
+	</script>
+</body>
+</html>
