@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+	<script>
+		var app = angular.module('mode', []);
+		app.controller('cont', function ($scope) {
+			$scope.name = "John";
+			$scope.change = function () {
+				$scope.name = "Bob";
+			}
+		});
+		console.log('succesfull');
+	</script>
+
+	<div ng-app="mode" ng-controller="cont">
+		<h1 ng-click="change()">{{ name }}</h1>
+	</div>
+	
+	
+
+</body>
+</html>

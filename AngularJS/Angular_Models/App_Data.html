@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+	<form ng-app="" name="myform" ng-init="myText = 'exs@mail.com' '">
+		Email again:
+		<input type="email" name="myaddres" ng-model="myText" required />
+		<h1>Status</h1>
+		{{myform.myaddres.$valid}}
+		{{myform.myaddres.$dirty}}
+		{{myform.myaddres.$touched}}
+	</form>
+</body>
+</html>
