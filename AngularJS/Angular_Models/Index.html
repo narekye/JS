@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<meta charset="utf-8" />
+	<title></title>
+</head>
+<body>
+	<!--<div ng-app="myapp" ng-controller="myctrl">
+		Name: <input ng-model="name" />
+		<h1>You entered this name {{name}}</h1>
+	</div>-->
+	<!--
+	Validation message shown below...	 
+	-->
+	<form ng-app="" name="myform">
+		Email: <input type="email" name="myaddres" ng-model="text" >
+		<span ng-show="myform.myaddres.$error.email">I didn't understand this email</span>
+	</form>
+	<script>
+		var app = angular.module("myapp", []);
+		app.controller("myctrl", function ($scope) {
+			$scope.name = "John Doe";
+		});
+	</script>
+</body>
+</html>
