@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <meta charset="utf-8" />
+	
+    <title></title>
+</head>
+<body>
+	<script>
+		var app = angular.module('simmod', []);
+		app.controller('simctrl', function ($scope) {
+			$scope.count = 0;
+		});
+	</script>
+	<div ng-app="simmod" ng-controller="simctrl">
+		<p ng-mousemove="count = count + 1">
+			Mouse over me !!!!!
+			{{count}}
+		</p>
+	</div>
+</body>
+</html>
