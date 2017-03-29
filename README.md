@@ -3,7 +3,7 @@
 # JS projects via MS Visual Studio 2017 Release Candidate.
 
 
-There is included projects via JavaScript, HTML, CSS, jQuery, AJAX,Angular and so more will be soon... created with Visual Studio 2017 RC. 
+There is included projects via JavaScript, HTML, CSS, jQuery, AJAX,AngularJS and so more will be soon... created with Visual Studio 2017 RC. 
 ### Some helpful information about JS.
 JavaScript, not to be confused with Java, was created in 10 days in May `1995` by Brendan Eich, then working at Netscape and now of Mozilla. JavaScript was not always known as JavaScript: the original name was Mocha, a name chosen by Marc Andreessen, founder of Netscape. In September of 1995 the name was changed to LiveScript, then in December of the same year, upon receiving a trademark license from Sun, the name JavaScript was adopted. This was somewhat of a marketing move at the time, with Java being very popular around then.
 
@@ -40,7 +40,7 @@ AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScr
 
 The AngularJS framework works by first reading the HTML page, which has embedded into it additional custom tag attributes. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.
 
-According to JavaScript analytics service Libscore, AngularJS is used on the websites of Wolfram Alpha, NBC, Walgreens, Intel, Sprint, ABC News, and approximately 12,000 other sites out of 1 million tested in October 2016.[3] AngularJS is the 6th most starred project of all time on GitHub.[4]
+According to JavaScript analytics service Libscore, AngularJS is used on the websites of Wolfram Alpha, NBC, Walgreens, Intel, Sprint, ABC News, and approximately 12,000 other sites out of 1 million tested in October 2016. AngularJS is the 6th most starred project of all time on GitHub.
 
 AngularJS is the frontend part of the MEAN stack, consisting of MongoDB database, Express.js web application server framework, Angular.js itself, and Node.js server runtime environment.
 
