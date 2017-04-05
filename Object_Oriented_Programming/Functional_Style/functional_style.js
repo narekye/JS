@@ -1,7 +1,7 @@
 function CoffeeMachine(power,capacity) {
 	this.wateramount = 0;
 	alert("Wateramount" + wateramount);
-	// getter setter for wateramount
+	// setter for wateramount
 	this.setwateramount = function (amount) {
 		if (amount < 0) {
 			throw new Error("Amount must be a + value");
@@ -11,7 +11,6 @@ function CoffeeMachine(power,capacity) {
 		}
 		this.wateramount = amount;
 	}
-		
 	function getBoilTime() {
 		return 1000;
 	}
@@ -21,7 +20,6 @@ function CoffeeMachine(power,capacity) {
 	this.run = function () {
 		setTimeout(onReady, getBoilTime());
 	}
-	
 }
 var coffeemachine = new CoffeeMachine(100,200);
 coffeemachine.run();
