@@ -7,14 +7,14 @@ function CoffeeMachine(power,capacity) {
 			throw new Error("Amount must be a + value");
 		}
 		if (amount > capacity) {
-			throw new Error("It can't be.")
+			throw new Error("It can't be.");
 		}
 		this.wateramount = amount;
-	}
+	};
 	// getter for wateramount
 	this.getwateramount = function () {
 		return wateramount;
-	}
+	};
 	// getter setter property example. one function
 	this.waterprop = function (amount) {
 		if (!arguments.length) {
@@ -27,7 +27,7 @@ function CoffeeMachine(power,capacity) {
 			throw new Error("Coffeemachine doesnt support this amount");
 		}
 		this.wateramount = amount;
-	}
+	};
 	// some functions
 	function getBoilTime() {
 		return 1000;
@@ -37,7 +37,7 @@ function CoffeeMachine(power,capacity) {
 	}
 	this.run = function () {
 		setTimeout(onReady, getBoilTime());
-	}
+	};
 }
 var coffeemachine = new CoffeeMachine(100,200);
 coffeemachine.run();
