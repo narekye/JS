@@ -11,6 +11,24 @@ function CoffeeMachine(power,capacity) {
 		}
 		this.wateramount = amount;
 	}
+	// getter for wateramount
+	this.getwateramount = function () {
+		return wateramount;
+	}
+	// getter setter property example. one function
+	this.waterprop = function (amount) {
+		if (!arguments.length) {
+			return wateramount;
+		}
+		if (amount < 0) {
+			throw new Error("It cant be -");
+		}
+		if (amount > capacity) {
+			throw new Error("Coffeemachine doesnt support this amount");
+		}
+		this.wateramount = amount;
+	}
+	// some functions
 	function getBoilTime() {
 		return 1000;
 	}
