@@ -1,4 +1,4 @@
-<img src="https://github.com/narekye/JS_Projects/blob/master/js.png" align="right" width="150px" height="150px" /> 
+<img src="https://github.com/narekye/JS_Projects/blob/master/Repository_files/js.png" align="right" width="150px" height="150px" /> 
 
 # JS projects via MS Visual Studio 2017 Release Candidate. 
 
@@ -36,6 +36,9 @@ All of this then brings us to today, with JavaScript entering a completely new a
 ___
 
 ### Helpful information about Angular.js `open-source` framework.
+<img src="https://github.com/narekye/JS_Projects/blob/master/Repository_files/ang.png" align="right" width="150px" height="150px" /> 
+
+
 AngularJS (commonly referred to as "Angular.js" or "AngularJS 1.X") is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing `single-page` applications. The JavaScript components complement Apache Cordova, the framework used for developing cross-platform mobile apps. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. In 2014, the original AngularJS team began working on Angular (Application Platform).
 
 The AngularJS framework works by first reading the HTML page, which has embedded into it additional custom tag attributes. Angular interprets those attributes as directives to bind input or output parts of the page to a model that is represented by standard JavaScript variables. The values of those JavaScript variables can be manually set within the code, or retrieved from static or dynamic JSON resources.
