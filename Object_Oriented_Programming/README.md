@@ -1,4 +1,4 @@
-# In this subfolder included Object oriented programming priciples examples on JavaScript.
+# In this subfolder included Object oriented programming principles examples on JavaScript.
 ---
 Some examples are grouped by `functional style` and `prototype` style`.
 ---
