@@ -15,4 +15,4 @@ var animal = new Animal("Dog");
 alert(animal.speed);
 animal.run(5); // animal runs speed = 5;
 animal.run(5); // animal runs speed = 10;
-animal.stop(); // animal stopped;
+animal.stop(); // animal stopped; 
