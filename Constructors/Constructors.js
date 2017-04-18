@@ -21,4 +21,4 @@ function User(name) {
 	}
 }
 var nuser = new User("Jim");
-nuser.sayHi();
+nuser.sayHi(); 
