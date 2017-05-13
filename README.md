@@ -1,6 +1,6 @@
 <img src="https://github.com/narekye/JS_Projects/blob/master/Repository_files/js.png" align="right" width="150px" height="150px" /> 
 
-# JS projects via MS Visual Studio 2017 Release Candidate. 
+# JS projects via MS Visual Studio 2017 Release Candidate.  
      
 
 There is included projects via JavaScript, HTML, CSS, jQuery, AJAX,AngularJS and so more will be soon... created with Visual Studio 2017 RC. 
